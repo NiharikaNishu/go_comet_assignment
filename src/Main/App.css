@@ -1,0 +1,113 @@
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    clear: left;
+    height: auto;
+    z-index: 0;
+    text-align: center;
+    background-color: #FF0;
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.main-title {
+    font-size: 150%;
+    color: #00aced;
+}
+
+.results {
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: #4F84C4;
+}
+
+.results {
+    display: inline;
+}
+
+.favorites {
+    color: red;
+}
+
+.results-rt {
+    color: green;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.submit-button-case {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(77, 100, 77);
+    border: none;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.clear-button {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.likes-button {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4F84C4;
+    border: none;
+    border-radius: 15px;
+}
+
+.submit-button .clear-button:hover {
+    background-color: #3e8e41
+}
+
+.submit-button .clear-button :active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.user-input {
+    margin-bottom: 15px;
+}
+
+.buttons {
+    margin-bottom: 15px;
+}
